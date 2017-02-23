@@ -3,7 +3,7 @@
 Executing a [yeoman generator](http://yeoman.io/generators/)  without the need of [node.js](https://nodejs.org) and [yeoman](http://yeoman.io)  on your machine.
 You will need [docker](https://www.docker.com) instead ;-)
 
-_Finally the container is running without npm permission errors on the node\_modules!_ folder.
+*Finally the container is running without npm permission errors on the node_modules! folder*.
 
 ## Usage
 
@@ -18,8 +18,6 @@ $ docker run --rm -it -v $(pwd):/yo zsim0n/yeoman sh -c 'npm install -g generato
 
 ## Contribution
 Thank you for taking the time to contribute! See [code of conduct](http://contributor-covenant.org) for contribution guidelines and details
-
-http://contributor-covenant.org
 
 ## License
 
