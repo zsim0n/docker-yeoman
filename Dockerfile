@@ -1,7 +1,7 @@
 FROM node:alpine
 
-MAINTAINER "Zoltan Simon" <zoltan@zoltansimon.me>
-LABEL vendor="Zoltan Simon <zoltan@zoltansimon.me>"
+MAINTAINER "Zoltan Simon" <hello@zoltansimon.me>
+LABEL vendor="Zoltan Simon <hello@zoltansimon.me>"
 LABEL description="Yeoman scaffolding that works!"
 LABEL version="0.2.0"
 
