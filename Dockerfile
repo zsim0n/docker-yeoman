@@ -1,6 +1,9 @@
 FROM node:alpine
 
 MAINTAINER "Zoltan Simon" <zoltan@zoltansimon.me>
+LABEL vendor="Zoltan Simon <zoltan@zoltansimon.me>"
+LABEL description="Yeoman scaffolding that works!"
+LABEL version="0.2.0"
 
 RUN apk add --update bash && rm -rf /var/cache/apk/*
 
